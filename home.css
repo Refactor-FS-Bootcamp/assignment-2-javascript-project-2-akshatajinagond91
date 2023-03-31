@@ -35,6 +35,17 @@ button >img:first-child{
     cursor: pointer;
 }
 
+#navbar >h3{
+    margin-left: 1250px;
+}
+#navbar>h3:hover{
+    background-color: rgb(219, 213, 213);
+}
+
+a {
+    text-decoration: none;
+}
+
 /* ------slide show---------- */
 
 [data-component="slideshow"] .slide {
