@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(45, 165, 165);
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items:center
+}
+
+#navbar >img:first-child{
+    height: 40px;
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 10px;
+    
+}
+#navbar > button{
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-right: 10px;
+    background-color: rgb(45, 165, 165);
+}
+button >img:first-child{
+    height: 40px;
+    width: 40px;
+}
+
+#navbar > button:hover{
+    background-color: rgb(195, 192, 187);
+    cursor: pointer;
+}
+
+#navbar >h3{
+    margin-left: 1250px;
+}
+#navbar>h3:hover{
+    background-color: rgb(219, 213, 213);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------slide show---------- */
+
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+
+  .slide img{
+    height:88vh;
+    width: 100%;
+  }
